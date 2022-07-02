@@ -1,0 +1,26 @@
+{
+  "name": "2dv515_project",
+  "version": "1.0.0",
+  "description": "Web scraper",
+  "main": "main.ts",
+  "scripts": {
+    "start": "nodemon main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.lnu.se:2dv515/student/lh223cc/project.git"
+  },
+  "author": "Linus Hvenfelt",
+  "license": "ISC",
+  "dependencies": {
+    "html-to-text": "^8.1.0",
+    "nodemon": "^2.0.15",
+    "puppeteer": "^13.0.1",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "@types/puppeteer": "^5.4.4"
+  }
+}
